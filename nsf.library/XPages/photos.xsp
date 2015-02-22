@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view xmlns:xp="http://www.ibm.com/xsp/core" pageTitle="Photos"
-	pageIcon="/photos.png">
+	pageIcon="/photos.png" xmlns:xc="http://www.ibm.com/xsp/custom">
 	<xp:this.data>
 		<xp:dominoView databaseName="entwickler\photos\attachments.nsf"
 			var="view1" viewName="lkp_attachmentsBySubject" />
 	</xp:this.data>
 
-
+<xp:panel style="margin:1em;">
 	<xp:panel
 		style="font-size:16pt;font-family:sans-serif;font-weight:bold;margin-bottom:1.0em">
 		Photos
@@ -21,34 +21,33 @@
 		</xp:button>
 	</xp:panel>
 
+<!--	<xp:viewPanel value="#{view1}" id="viewPanel1" pageName="/photo.xsp">-->
+<!--		<xp:this.facets>-->
+<!--			<xp:pager partialRefresh="true" layout="Previous Group Next"-->
+<!--				xp:key="headerPager" id="pager1" />-->
+<!---->
+<!--		</xp:this.facets>-->
+<!--		<xp:viewColumn columnName="Subject" id="viewColumn1"-->
+<!--			displayAs="link" openDocAsReadonly="true">-->
+<!--			<xp:this.facets>-->
+<!--				<xp:viewColumnHeader value="Subject" xp:key="header"-->
+<!--					id="viewColumnHeader1" />-->
+<!---->
+<!--			</xp:this.facets>-->
+<!--		</xp:viewColumn>-->
+<!--		<xp:viewColumn columnName="Description" id="viewColumn2">-->
+<!--			<xp:this.facets>-->
+<!--				<xp:viewColumnHeader value="Description" xp:key="header"-->
+<!--					id="viewColumnHeader2" />-->
+<!---->
+<!--			</xp:this.facets>-->
+<!--		</xp:viewColumn>-->
+<!--		-->
+<!--	</xp:viewPanel>-->
 
-	<xp:viewPanel value="#{view1}" id="viewPanel1" pageName="/photo.xsp">
-		<xp:this.facets>
-			<xp:pager partialRefresh="true" layout="Previous Group Next"
-				xp:key="headerPager" id="pager1" />
 
-		</xp:this.facets>
-		<xp:viewColumn columnName="Subject" id="viewColumn1"
-			displayAs="link" openDocAsReadonly="true">
-			<xp:this.facets>
-				<xp:viewColumnHeader value="Subject" xp:key="header"
-					id="viewColumnHeader1" />
+	<xc:photos_1></xc:photos_1>
 
-			</xp:this.facets>
-		</xp:viewColumn>
-		<xp:viewColumn columnName="Description" id="viewColumn2">
-			<xp:this.facets>
-				<xp:viewColumnHeader value="Description" xp:key="header"
-					id="viewColumnHeader2" />
-
-			</xp:this.facets>
-		</xp:viewColumn>
-		<xp:viewColumn columnName="$attachmentname" id="viewColumn3">
-			<xp:this.facets>
-				<xp:viewColumnHeader value="Attachment  name"
-					xp:key="header" id="viewColumnHeader3" />
-
-			</xp:this.facets>
-		</xp:viewColumn>
-	</xp:viewPanel>
-</xp:view>
+</xp:panel>
+	
+	</xp:view>
