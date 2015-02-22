@@ -1,34 +1,34 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
  maintenanceversion='1.0' replicaid='85257DF400018B6C'>
-<noteinfo noteid='11a' unid='D68BF06539C53F8285257DF400018B87' sequence='13'>
+<noteinfo noteid='11a' unid='D68BF06539C53F8285257DF400018B87' sequence='14'>
 <created><datetime>20150221T191652,55-05</datetime></created>
-<modified><datetime>20150222T090629,90-05</datetime></modified>
-<revised><datetime>20150222T090629,89-05</datetime></revised>
-<lastaccessed><datetime>20150222T090629,90-05</datetime></lastaccessed>
+<modified><datetime>20150222T155036,03-05</datetime></modified>
+<revised><datetime>20150222T155036,02-05</datetime></revised>
+<lastaccessed><datetime>20150222T155036,03-05</datetime></lastaccessed>
 <addedtofile><datetime>20150221T191652,58-05</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Devin Olson/O=azlighthouse</name></updatedby>
 <wassignedby><name>CN=Devin Olson/O=azlighthouse</name></wassignedby>
-<item name='IconBitmap' summary='true'>
-<rawitemdata type='6'>
-AiAgAQAA///////wD///4Af//8AD//4AAH/8AAA/+AAAH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAA
-D+AAAAfAAAADgAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAcAAAAPwAAAP8AAAD/AAAA/wAAAP
-+AAAH/wAAD//8A////gf//////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAA
-DxERERHwAAAAAAAAAAAAAPEd3d3RHwAAAAAAAAAAD//x3Xd33R//8AAAAAAAAPEREdd3d30RER8A
-AAAAAA8R3d3Xd3d93d0R8AAAAADxHXd913d3fdd30R8AAAAA8dd3fdd3d33Xd30fAAAAAPHXd33X
-d3d913d9HwAAAADx13d913d3fdd3fR8AAAAA8dd3fdd3d33Xd30fAAAAAPHXd33Xd3d913d9HwAA
-AA/x13d913d3fdd3fR/wAADxEdd3fdd3d33Xd30RHwAPEd13d33Xd3d913d33RHw8R13d3d913d3
-fdd3d3fRH/HXd3d3fdd3d33Xd3d3fR/x13d3d33Xd3d913d3d30f8dd3d3fR13d3fR13d3d9H/Ed
-3d3dEdd3d30R3d3d0R8PEREd3dEd3d3RHd3RERHwAP/x13d9Ed3dEdd3fR//AAAA8dd3fR13d9HX
-d30fAAAAAPHXd33Xd3d913d9HwAAAADx13d913d3fdd3fR8AAAAA8R3d0dd3d30d3dEfAAAAAA8R
-EREdd3fRERER8AAAAAAA////Ed3dEf///wAAAAAAAAAAAPERER8AAAAAAAAAAAAAAAAP///wAAAA
-AAAAUEECICABAAD/////+A4DgA==
-</rawitemdata></item>
 <item name='$Daos'><text>0</text></item>
 <item name='$LaunchXPageRunOnServer'><text>0</text></item>
 <item name='$DefaultXPage'><text>events.xsp</text></item>
 <item name='$TITLE'><text>EntwicklerCamp 2015
 #1EntwicklerCamp 2015</text></item>
 <item name='$Flags'><text>J!</text></item>
-<item name='$FlagsNoRefresh'><text>trv</text></item></note>
+<item name='$FlagsNoRefresh'><text>trv</text></item>
+<item name='IconBitmap' summary='true'>
+<rawitemdata type='6'>
+AiAgAQAA////////////////////////////////////////////7/r/+APAH+BDhgfGwkQDwgAh
+gYNoEQGDaBBhgB5YYfD+fw/+lxr//BGYP/wXmz/8llo//JgRP/wYET/8GBg//Hwef//+P////3//
+//////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAHBwAAAAAAAAd3d3d3
+AAB3d3d3cAAAAAd3d3B3dwAHd3AHd3dwAAB3cAcAd3cHcHdwd3d3dwAAd3cHd3d3d3cHd3AHd3dw
+B3d3AHAHB3d3cHdwd3d3cAd3dwBwBwd3d3B3d3AHd3AHd3d3d3AAB3BwB3dwB3dwAAB3dwAAAAdw
+AAAAd3cAAAAAAAcHcHAAd3AHBwAAAAAAAAB3d3B3cAdwB3d3AAAAAAAAd3dwcAAHcAcAdwAAAAAA
+AHcHcHAHcHAHB3cAAAAAAAB3B3AHd3dwd3B3AAAAAAAAd3dwB3d3cHdwdwAAAAAAAHd3cAd3d3AH
+d3cAAAAAAAB3cAAAd3dwAAdwAAAAAAAAAAAAAAd3AAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item></note>
 
