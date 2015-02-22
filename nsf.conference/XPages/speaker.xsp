@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+  <xp:this.data>
+    <xp:dominoDocument formName="speaker" var="speaker1"/>
+  </xp:this.data>
+  <xp:table>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Speaker name:" id="speakerName_Label1" for="speakerName1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{speaker1.speakerName}" id="speakerName1">
+  			</xp:inputText>
+  		</xp:td>
+  	</xp:tr><xp:tr>
+  		<xp:td>
+  			<xp:label value="Email:" id="email_Label1" for="email1"></xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{speaker1.email}" id="email1"></xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Company:" id="company_Label1"
+  				for="company1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{speaker1.company}" id="company1"></xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Description:" id="description_Label1"
+  				for="description1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{speaker1.description}"
+  				id="description1">
+  			</xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	
+  	<xp:tr>
+  		<xp:td></xp:td>
+  		<xp:td>
+  			<xp:messages layout="table" style="color:red"
+  				id="messages1">
+  			</xp:messages>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td></xp:td>
+  		<xp:td>
+  			<xp:button value="Submit" id="button1">
+  				<xp:eventHandler event="onclick" submit="true"
+  					refreshMode="complete" immediate="false" save="true"
+  					id="eventHandler1">
+  				</xp:eventHandler>
+  			</xp:button>
+  		</xp:td>
+  	</xp:tr>
+  </xp:table></xp:view>
