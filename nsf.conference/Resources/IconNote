@@ -1,13 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.0' replicaid='85257DE00083C6BB'>
-<noteinfo noteid='11a' unid='F3BC1AA28148FB9185257DE00083C6BF' sequence='13'>
-<created><datetime>20150202T185920,95-05</datetime></created>
-<modified><datetime>20150221T102625,79-05</datetime></modified>
-<revised><datetime>20150221T102625,78-05</datetime></revised>
-<lastaccessed><datetime>20150221T102625,79-05</datetime></lastaccessed>
-<addedtofile><datetime>20150202T185920,98-05</datetime></addedtofile></noteinfo>
+ maintenanceversion='1.0' replicaid='85257DF400018B6C'>
+<noteinfo noteid='11a' unid='D68BF06539C53F8285257DF400018B87' sequence='13'>
+<created><datetime>20150221T191652,55-05</datetime></created>
+<modified><datetime>20150222T090629,90-05</datetime></modified>
+<revised><datetime>20150222T090629,89-05</datetime></revised>
+<lastaccessed><datetime>20150222T090629,90-05</datetime></lastaccessed>
+<addedtofile><datetime>20150221T191652,58-05</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Devin Olson/O=azlighthouse</name></updatedby>
+<wassignedby><name>CN=Devin Olson/O=azlighthouse</name></wassignedby>
 <item name='IconBitmap' summary='true'>
 <rawitemdata type='6'>
 AiAgAQAA///////wD///4Af//8AD//4AAH/8AAA/+AAAH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAA
@@ -24,10 +25,10 @@ EREdd3fRERER8AAAAAAA////Ed3dEf///wAAAAAAAAAAAPERER8AAAAAAAAAAAAAAAAP///wAAAA
 AAAAUEECICABAAD/////+A4DgA==
 </rawitemdata></item>
 <item name='$Daos'><text>0</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$DefaultXPage'><text>events.xsp</text></item>
 <item name='$TITLE'><text>EntwicklerCamp 2015
 #1EntwicklerCamp 2015</text></item>
 <item name='$Flags'><text>J!</text></item>
-<item name='$LaunchXPageRunOnServer'><text>0</text></item>
-<item name='$FlagsNoRefresh'><text>t</text></item>
-<item name='$DefaultXPage'><text>events.xsp</text></item></note>
+<item name='$FlagsNoRefresh'><text>trv</text></item></note>
 
