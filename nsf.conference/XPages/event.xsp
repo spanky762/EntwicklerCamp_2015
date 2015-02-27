@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+  <xp:this.data>
+    <xp:dominoDocument formName="event" var="event1"/>
+  </xp:this.data>
+  <xp:table>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Subject:" id="subject_Label1"
+  				for="subject1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{event1.subject}" id="subject1"></xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Description:" id="description_Label1"
+  				for="description1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{event1.description}"
+  				id="description1">
+  			</xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Additional speakers:"
+  				id="additionalSpeakers_Label1" for="additionalSpeakers1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{event1.additionalSpeakers}"
+  				id="additionalSpeakers1">
+  			</xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Category:" id="category_Label1"
+  				for="category1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{event1.category}" id="category1"></xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Track:" id="track_Label1" for="track1"></xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{event1.track}" id="track1"></xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Begins:" id="begins_Label1"
+  				for="begins1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{event1.begins}" id="begins1">
+  				<xp:dateTimeHelper id="dateTimeHelper1"></xp:dateTimeHelper>
+  				<xp:this.converter>
+  					<xp:convertDateTime type="date"
+  						dateStyle="short">
+  					</xp:convertDateTime>
+  				</xp:this.converter>
+  			</xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Duration:" id="duration_Label1"
+  				for="duration1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{event1.duration}" id="duration1">
+  				<xp:this.converter>
+  					<xp:convertNumber></xp:convertNumber>
+  				</xp:this.converter>
+  			</xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td>
+  			<xp:label value="Speaker name:" id="speakerName_Label1"
+  				for="speakerName1">
+  			</xp:label>
+  		</xp:td>
+  		<xp:td>
+  			<xp:inputText value="#{event1.speakerName}"
+  				id="speakerName1">
+  			</xp:inputText>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td></xp:td>
+  		<xp:td>
+  			<xp:messages layout="table" style="color:red"
+  				id="messages1">
+  			</xp:messages>
+  		</xp:td>
+  	</xp:tr>
+  	<xp:tr>
+  		<xp:td></xp:td>
+  		<xp:td>
+  			<xp:button value="Submit" id="button1">
+  				<xp:eventHandler event="onclick" submit="true"
+  					refreshMode="complete" immediate="false" save="true"
+  					id="eventHandler1">
+  				</xp:eventHandler>
+  			</xp:button>
+  		</xp:td>
+  	</xp:tr>
+  </xp:table></xp:view>

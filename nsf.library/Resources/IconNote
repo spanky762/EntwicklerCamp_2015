@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
+ maintenanceversion='1.0' replicaid='85257DF4004D2A6F'>
+<noteinfo noteid='11a' unid='05DC4E69EB9FB47A85257DF4004D2A74' sequence='15'>
+<created><datetime>20150222T090251,40-05</datetime></created>
+<modified><datetime>20150222T161644,75-05</datetime></modified>
+<revised><datetime>20150222T161644,74-05</datetime></revised>
+<lastaccessed><datetime>20150222T161644,75-05</datetime></lastaccessed>
+<addedtofile><datetime>20150222T090251,43-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Devin Olson/O=azlighthouse</name></updatedby>
+<wassignedby><name>CN=Devin Olson/O=azlighthouse</name></wassignedby>
+<item name='$Daos'><text>0</text></item>
+<item name='IconBitmap' summary='true'>
+<rawitemdata type='6'>
+AiAgAQAA/////////////////////4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAeA4AD/gPAA/
+//4A////AP////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAAAAAD+AAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8R8AAAAAAAAAAAAAAAAO8RERHwAAAAAAAAAAAAAA
+4REREREQAAAAAAAAAAAAABEeAA7xHwAAAAAAAAAAAA4R4AAADxEAAAAAAAAAAAAPHwAO4A4R8AAA
+AAAAAAAAAR4A8R4AERAAAAAAAAAAAAEeAPEeABEQAAAAAAAAAAABHwAP8AAR8AAAAAAAAAAADxEA
+AAAOEeAAAAAAAAAAAA4RHgAA4R8AAAAAAO7u7gAA4RH+7xEeAAAAAA4REREAAA4RERER4AAAAAAO
+EREfAAAA7xEf4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAAAAAA
+AAAAAA4P4AAAAO7gAAAAAAAADu7wAA4AAAAADwAAAAAAAAAAAAAPAAAAAADgAAAAAA8AAAAAAAAA
+AAAADgAAAAAAAAAAAAAAAAAAAAD+7u7vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>Photo Library
+#1Entwickler Photo Library</text></item>
+<item name='$Flags'><text>J!</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$FlagsNoRefresh'><text>rvt</text></item>
+<item name='$DefaultXPage'><text>photos.xsp</text></item></note>
+

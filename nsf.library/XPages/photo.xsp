@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	pageTitle="Photo"
+	pageIcon="/camera.png">
+	<xp:this.data>
+		<xp:dominoDocument
+			databaseName="Entwickler2015\photos\attachments.ntf"
+			formName="attachment"
+			var="document1" />
+	</xp:this.data>
+	<xp:panel
+		style="margin:1em;">
+		<xp:panel
+			style="font-size:16pt;font-family:sans-serif;font-weight:bold;margin-bottom:1.0em"> Photo </xp:panel>
+		<xp:panel
+			style="margin:1em;">
+			<xp:button
+				value="Edit"
+				id="button1"
+				rendered="#{javascript:!document1.isEditable()}">
+				<xp:eventHandler
+					event="onclick"
+					submit="true"
+					refreshMode="complete">
+					<xp:this.action>
+						<xp:changeDocumentMode
+							mode="edit"
+							var="document1" />
+					</xp:this.action>
+				</xp:eventHandler>
+			</xp:button>
+			<xp:button
+				value="Save"
+				id="button2"
+				rendered="#{javascript:document1.isEditable()}">
+				<xp:eventHandler
+					event="onclick"
+					submit="true"
+					refreshMode="complete"
+					immediate="false"
+					save="true" />
+			</xp:button>
+			<xp:button
+				value="Cancel"
+				id="button3">
+				<xp:eventHandler
+					event="onclick"
+					submit="true"
+					refreshMode="complete"
+					immediate="true"
+					save="false" />
+			</xp:button>
+		</xp:panel>
+		<xp:table>
+			<xp:tr>
+				<xp:td
+					style="color:rgb(0,64,128);font-weight:bold">
+					<xp:label
+						value="Subject:"
+						id="subject_Label1"
+						for="subject1" />
+				</xp:td>
+				<xp:td>
+					<xp:inputText
+						value="#{document1.subject}"
+						id="subject1"
+						required="true">
+						<xp:this.validators>
+							<xp:validateRequired
+								message="Subject is Required" />
+						</xp:this.validators>
+					</xp:inputText>
+				</xp:td>
+			</xp:tr>
+			<xp:tr>
+				<xp:td
+					style="color:rgb(0,64,128);font-weight:bold">
+					<xp:label
+						value="Description:"
+						id="description_Label1"
+						for="description1" />
+				</xp:td>
+				<xp:td>
+					<xp:inputText
+						value="#{document1.description}"
+						id="description1" />
+				</xp:td>
+			</xp:tr>
+			<xp:tr>
+				<xp:td
+					style="color:rgb(0,64,128);font-weight:bold">
+					<xp:label
+						value="Photo"
+						id="label1"
+						for="description1" />
+				</xp:td>
+				<xp:td>
+					<xp:image
+						alt=""
+						id="image1"
+						rendered="#{javascript:!document1.isNewNote()}">
+						<xp:this.url><![CDATA[#{javascript:return "../attachments.nsf/0/" + document1.getDocument().getUniversalID() + "/$FILE/image.jpg";}]]></xp:this.url>
+					</xp:image>
+					<xp:fileUpload
+						id="fileUpload1"
+						mimetype="image/jpeg"
+						useUploadname="false"
+						filename="image.jpg"
+						rendered="#{javascript:document1.isNewNote()}"
+						value="#{document1.attachment}" />
+				</xp:td>
+			</xp:tr>
+		</xp:table>
+	</xp:panel>
+	<xp:this.navigationRules>
+		<xp:navigationRule
+			outcome="xsp-success"
+			viewId="/photos.xsp" />
+	</xp:this.navigationRules>
+</xp:view>
