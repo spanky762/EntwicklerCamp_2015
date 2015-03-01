@@ -31,39 +31,40 @@
 				</xp:eventHandler>
 			</xp:button>
 		</xp:panel>
-		<xp:viewPanel
-			value="#{view1}"
-			id="viewPanel1"
-			pageName="/photo.xsp">
-			<xp:this.facets>
-				<xp:pager
-					partialRefresh="true"
-					layout="Previous Group Next"
-					xp:key="headerPager"
-					id="pager1" />
-			</xp:this.facets>
-			<xp:viewColumn
-				columnName="Subject"
-				id="viewColumn1"
-				displayAs="link"
-				openDocAsReadonly="true">
-				<xp:this.facets>
-					<xp:viewColumnHeader
-						value="Subject"
-						xp:key="header"
-						id="viewColumnHeader1" />
-				</xp:this.facets>
-			</xp:viewColumn>
-			<xp:viewColumn
-				columnName="Description"
-				id="viewColumn2">
-				<xp:this.facets>
-					<xp:viewColumnHeader
-						value="Description"
-						xp:key="header"
-						id="viewColumnHeader2" />
-				</xp:this.facets>
-			</xp:viewColumn>
-		</xp:viewPanel>
+		<!--		<xp:viewPanel-->
+		<!--			value="#{view1}"-->
+		<!--			id="viewPanel1"-->
+		<!--			pageName="/photo.xsp">-->
+		<!--			<xp:this.facets>-->
+		<!--				<xp:pager-->
+		<!--					partialRefresh="true"-->
+		<!--					layout="Previous Group Next"-->
+		<!--					xp:key="headerPager"-->
+		<!--					id="pager1" />-->
+		<!--			</xp:this.facets>-->
+		<!--			<xp:viewColumn-->
+		<!--				columnName="Subject"-->
+		<!--				id="viewColumn1"-->
+		<!--				displayAs="link"-->
+		<!--				openDocAsReadonly="true">-->
+		<!--				<xp:this.facets>-->
+		<!--					<xp:viewColumnHeader-->
+		<!--						value="Subject"-->
+		<!--						xp:key="header"-->
+		<!--						id="viewColumnHeader1" />-->
+		<!--				</xp:this.facets>-->
+		<!--			</xp:viewColumn>-->
+		<!--			<xp:viewColumn-->
+		<!--				columnName="Description"-->
+		<!--				id="viewColumn2">-->
+		<!--				<xp:this.facets>-->
+		<!--					<xp:viewColumnHeader-->
+		<!--						value="Description"-->
+		<!--						xp:key="header"-->
+		<!--						id="viewColumnHeader2" />-->
+		<!--				</xp:this.facets>-->
+		<!--			</xp:viewColumn>-->
+		<!--		</xp:viewPanel>-->
+		<xc:photos_1 />
 	</xp:panel>
 </xp:view>
