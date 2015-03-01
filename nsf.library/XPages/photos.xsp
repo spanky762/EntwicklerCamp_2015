@@ -6,7 +6,7 @@
 	xmlns:xc="http://www.ibm.com/xsp/custom">
 	<xp:this.data>
 		<xp:dominoView
-			databaseName="Entwickler2015\photos\attachments.ntf"
+			databaseName="entwickler\photos\attachments.nsf"
 			var="view1"
 			viewName="lkp_attachmentsBySubject" />
 	</xp:this.data>
