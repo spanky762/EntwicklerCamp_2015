@@ -24,10 +24,6 @@ public class Image implements Serializable, Comparable<Image> {
 	}
 
 	public void load(Document document) {
-		if (null == document) {
-			throw new NullPointerException("Document is null");
-		}
-
 		try {
 			this._subject = document.getItemValueString("subject");
 			this._description = document.getItemValueString("description");
