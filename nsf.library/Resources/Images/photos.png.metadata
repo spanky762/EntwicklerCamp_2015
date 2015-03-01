@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="85257DF4004D2A6F" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="176" sequence="1" unid="D57F395792C7C88A85257DF40074D0AC">
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="85257DF9005CF364" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="15e" sequence="4" unid="D57F395792C7C88A85257DF40074D0AC">
 <created><datetime>20150222T161555,96-05</datetime></created>
-<modified><datetime>20150222T161555,97-05</datetime></modified>
-<revised><datetime>20150222T161555,96-05</datetime></revised>
-<lastaccessed><datetime>20150222T161555,97-05</datetime></lastaccessed>
-<addedtofile><datetime>20150222T161555,97-05</datetime></addedtofile></noteinfo>
+<modified><datetime>20150301T062616,16+01</datetime></modified>
+<revised><datetime>20150301T062616,15+01</datetime></revised>
+<lastaccessed><datetime>20150301T062616,16+01</datetime></lastaccessed>
+<addedtofile><datetime>20150227T115517,52-05</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Devin Olson/O=azlighthouse</name></updatedby>
 <wassignedby><name>CN=Devin Olson/O=azlighthouse</name></wassignedby>
 <item name="$TITLE"><text>photos.png</text></item>
-<item name="$Flags"><text>34CiQ</text></item>
 <item name="$FlagsExt"><text>D</text></item>
 <item name="$ImagesWide" sign="true"><number>1</number></item>
 <item name="$ImagesHigh" sign="true"><number>1</number></item>
 <item name="$ImagesColorize" sign="true"><number>0</number></item>
-
-
-<item name="$MimeType" sign="true"><text>image/png</text></item>
 <item name="$FileModDT" sign="true"><datetime>20150222T161532,00-05</datetime></item>
 <item name="$ImageNames" sign="true"><text>photos.png</text></item>
-<item name="$DesignerVersion"><text>8.5.3</text></item></note>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$EditFilePath"><text>D:\Temp\notesC9812B\~photos.png</text></item>
+<item name="$Flags"><text>34CiQ$</text></item></note>
