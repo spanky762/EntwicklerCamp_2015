@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note default='true' class='helpaboutdocument' xmlns='http://www.lotus.com/dxl'
+ version='9.0' maintenanceversion='1.0' replicaid='85257DF9005CF364'>
+<noteinfo noteid='176' unid='7A551B47DD7BF023C1257DFB001B311B' sequence='2'>
+<created><datetime>20150301T055700,43+01</datetime></created>
+<modified><datetime>20150301T055913,84+01</datetime></modified>
+<revised><datetime>20150301T055913,83+01</datetime></revised>
+<lastaccessed><datetime>20150301T055913,84+01</datetime></lastaccessed>
+<addedtofile><datetime>20150301T055700,46+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Devin Olson/O=azlighthouse</name></updatedby>
+<wassignedby><name>CN=Devin Olson/O=azlighthouse</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+</rawitemdata></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$Flags'><text/></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoMEAQCF/wgA
+AQAAJIECgwQBAN0GAACF/4X/CAABAQok0ggBAAAAgADeBgAAhf/dBgEAmQCZABwAAAAAAAAAAAAA
+AAAAAAAAAAAAAAABAAAAfQAcAAAAAwAgACAAAAAAAAAAAAAAAAAAAAAAAFIUBAAAAAAAAAAAAAAA
+AAAAAAAA9v8sAAAAAAADABMACgAAAAAAAAAAAAAAAAAAAAAAAAAAAGNhbWVyYS5wbmfeBgEAmQDd
+BgAAhf+F/x0AAQEKJCAgQWJvdXQgUGhvdG8gTGlicmFyeQDSCAEAAACAAN4GAACF/4ECgwQBAIX/
+CAABAAAKgQKDBAEAhf8IAAEAAAqBAoMEAQCF/3MAAQAADlRoaXMgaXMgYSBzYW1wbGUgZGF0YWJh
+c2UgZm9yIERldmluIFMuIE9sc29uJ3MgRGFzIEVudHdpY2tsZXJDYW1wIDIwMTUgcHJlc2VudGF0
+aW9uIG9uIFhQYWdlcyBEZXZlbG9wbWVudC4gAIECgwQBAIX/CAABAAAOgQKDBAEAhf8IAAEAAAo=
+</rawitemdata></item></note>
+
