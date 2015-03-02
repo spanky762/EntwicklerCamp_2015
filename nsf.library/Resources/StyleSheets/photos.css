@@ -1,0 +1,28 @@
+.photostable {
+	clear: 					both;
+	border: 				1px solid #ccc;
+	border-collapse: 		collapse;
+	width: 					80%; 
+	margin: 				1em;
+}
+
+.photostable thead tr th  {
+	background-color: 		#eee;
+	font-weight:			bold;
+	padding: 				5px;
+	text-align: 			left;
+}
+
+
+.photostable tbody tr td { 
+	padding: 				2px; 
+	text-align:				left; 
+} 
+
+.evenrow, .evenrow td { 
+	background-color: 		#fff;
+} 
+
+.oddrow, .oddrow td { 
+	background-color: 		#eee; 
+} 
