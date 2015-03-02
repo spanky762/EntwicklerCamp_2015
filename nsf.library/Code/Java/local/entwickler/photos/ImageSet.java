@@ -24,6 +24,15 @@ public class ImageSet extends TreeSet<Image> implements Serializable {
 	}
 
 	public void load(String filepath, String viewname) {
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println(" ");
+		System.out.println("**********");
+		System.out.println("ImageSet.load(filepath, viewname");
+		System.out.println("filepath: " + filepath);
+		System.out.println("viewname: " + viewname);
+
 		Database database = null;
 		View view = null;
 		ViewNavigator navigator = null;
