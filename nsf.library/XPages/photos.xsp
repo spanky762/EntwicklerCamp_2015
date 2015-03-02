@@ -6,14 +6,18 @@
 	xmlns:xc="http://www.ibm.com/xsp/custom">
 	<xp:this.data>
 		<xp:dominoView
-			databaseName="entwickler\attachments.ntf"
+			databaseName="entwickler\photos\attachments.nsf"
 			var="view1"
 			viewName="lkp_attachmentsBySubject" />
 	</xp:this.data>
+	<xp:this.resources>
+		<xp:styleSheet
+			href="/photos.css" />
+	</xp:this.resources>
 	<xp:panel
 		style="margin:1em;">
 		<xp:panel
-			style="font-size:16pt;font-family:sans-serif;font-weight:bold;margin-bottom:1.0em"> Photos </xp:panel>
+			style="font-size:16pt;font-family:sans-serif;font-weight:bold;margin-bottom:1.0em">Photos</xp:panel>
 		<xp:panel
 			style="margin:1em;">
 			<xp:button
@@ -32,9 +36,5 @@
 			</xp:button>
 		</xp:panel>
 		<xc:photos_1 />
-	</xp:panel>
-	<xp:repeat
-		id="repeat1"
-		rows="30"
-		value="#{view1}">
-	</xp:repeat></xp:view>
+		<xc:photos_repeat1></xc:photos_repeat1></xp:panel>
+</xp:view>
