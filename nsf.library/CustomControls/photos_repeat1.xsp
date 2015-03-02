@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:this.resources>
+		<xp:styleSheet
+			href="/photos.css" />
+	</xp:this.resources>
+	<xp:repeat
+		id="repeat1"
+		rows="30"
+		value="#{view1}"
+		var="rowData"
+		indexVar="rowIndex">
+		<xp:this.facets>
+			<xp:text
+				disableTheme="true"
+				xp:key="header"
+				escape="false">
+				<xp:this.value>
+						<![CDATA[<table class="photostable"><thead><tr><th>Subject</th><th>Description</th><th>Thumbnail</th></tr></thead><tbody>]]>
+				</xp:this.value>
+			</xp:text>
+			<xp:text
+				disableTheme="true"
+				xp:key="footer"
+				escape="false">
+				<xp:this.value>
+						<![CDATA[</tbody></table>]]>
+				</xp:this.value>
+			</xp:text>
+		</xp:this.facets>
+		<xp:tr
+			id="tr1">
+			<xp:this.styleClass><![CDATA[#{javascript:((rowIndex % 2) == 0)? "evenrow" : "oddrow";}]]></xp:this.styleClass>
+			<xp:td>
+				<xp:text
+					escape="true"
+					id="computedField1">
+					<xp:this.value><![CDATA[#{javascript:rowData.getColumnValue("Subject")}]]></xp:this.value>
+				</xp:text>
+			</xp:td>
+			<xp:td>
+				<xp:text
+					escape="true"
+					id="computedField2">
+					<xp:this.value><![CDATA[#{javascript:rowData.getColumnValue("Description")}]]></xp:this.value>
+				</xp:text>
+			</xp:td>
+			<xp:td>
+				<xp:image
+					id="image1"
+					style="height:64px">
+					<xp:this.url><![CDATA[#{javascript:"../attachments.nsf/0/" + rowData.getUniversalID() + "/$FILE/image.jpg"}]]></xp:this.url>
+				</xp:image>
+			</xp:td>
+			<xp:eventHandler
+				event="onclick"
+				submit="true"
+				refreshMode="complete">
+				<xp:this.action>
+					<xp:openPage
+						name="/photo.xsp"
+						target="openDocument"
+						documentId="#{javascript:rowData.getUniversalID()}" />
+				</xp:this.action>
+			</xp:eventHandler>
+		</xp:tr>
+	</xp:repeat>
+</xp:view>
