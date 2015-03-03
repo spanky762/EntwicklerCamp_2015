@@ -54,6 +54,24 @@ public class Image implements Serializable, Comparable<Image> {
 		return this._universalID;
 	}
 
+	public String getUrl() {
+		String delimiter = "//";
+		StringBuilder sb = new StringBuilder();
+		sb.append("..");
+		sb.append(delimiter);
+		sb.append("attachments.nsf");
+		sb.append(delimiter);
+		sb.append("0");
+		sb.append(delimiter);
+		sb.append(this.getUniversalID());
+		sb.append(delimiter);
+		sb.append("$FILE");
+		sb.append(delimiter);
+		sb.append("image.jpg");
+
+		return sb.toString();
+	}
+
 	/*
 	 * ***************************************************
 	 * ***************************************************

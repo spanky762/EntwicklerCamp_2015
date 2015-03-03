@@ -39,8 +39,21 @@
 					submit="true"
 					refreshMode="complete"
 					immediate="false"
-					save="true" />
+					save="true">
+					<xp:this.action><![CDATA[#{javascript:Images.reload()}]]></xp:this.action>
+				</xp:eventHandler>
 			</xp:button>
+<!--			<xp:button-->
+<!--				value="Save"-->
+<!--				id="button5"-->
+<!--				rendered="#{javascript:document1.isEditable()}">-->
+<!--				<xp:eventHandler-->
+<!--					event="onclick"-->
+<!--					submit="true"-->
+<!--					refreshMode="complete"-->
+<!--					immediate="false"-->
+<!--					save="true" />-->
+<!--			</xp:button>-->
 			<xp:button
 				value="Delete"
 				id="button4"
@@ -50,10 +63,13 @@
 					submit="true"
 					refreshMode="complete">
 					<xp:this.action>
-						<xp:deleteDocument
-							name="/photos.xsp"
-							var="document1"
-							message="Are you sure you want to delete this document?" />
+						<xp:actionGroup>
+							<xp:deleteDocument
+								name="/photos.xsp"
+								var="document1"
+								message="Are you sure you want to delete this document?" />
+							<xp:executeScript script="#{javascript:Images.reload()}"></xp:executeScript>
+						</xp:actionGroup>
 					</xp:this.action>
 				</xp:eventHandler>
 			</xp:button>

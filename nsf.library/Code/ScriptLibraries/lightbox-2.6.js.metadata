@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.0" replicaid="C1257DFD0006D7BD" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1ba" sequence="1" unid="97E91A5F226F34AEC1257DFD000EAEA1">
+<created><datetime>20150303T034022,09+01</datetime></created>
+<modified><datetime>20150303T034024,76+01</datetime></modified>
+<revised><datetime>20150303T034024,75+01</datetime></revised>
+<lastaccessed><datetime>20150303T034024,76+01</datetime></lastaccessed>
+<addedtofile><datetime>20150303T034024,76+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Devin Olson/O=azlighthouse</name></updatedby>
+<wassignedby><name>CN=Devin Olson/O=azlighthouse</name></wassignedby>
+<item name="$POID"><datetime>20140224T143030,93-05</datetime></item>
+<item name="$TITLE" sign="true"><text>lightbox-2.6</text></item>
+<item name="$Flags"><text>h534Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+</note>

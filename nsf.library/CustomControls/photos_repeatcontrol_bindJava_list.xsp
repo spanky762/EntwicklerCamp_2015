@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view
-	xmlns:xp="http://www.ibm.com/xsp/core">
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
 	<xp:this.resources>
 		<xp:styleSheet
 			href="/photos.css" />
 	</xp:this.resources>
 	<xp:this.beforePageLoad><![CDATA[#{javascript:Images.load('entwickler\\photos\\attachments.nsf', 'lkp_attachmentsBySubject')}]]></xp:this.beforePageLoad>
+	<xc:title_EL
+		title="#{compositeData.title}" />
 	<xp:repeat
 		id="repeat1"
 		rows="30"
@@ -18,7 +21,7 @@
 				xp:key="header"
 				escape="false">
 				<xp:this.value>
-						<![CDATA[<table class="photostable"><thead><tr><th>Subject</th><th>Description</th><th>Thumbnail</th></tr></thead><tbody>]]>
+					<![CDATA[<table class="photostable"><thead><tr><th>Subject</th><th>Description</th><th>Thumbnail</th></tr></thead><tbody>]]>
 				</xp:this.value>
 			</xp:text>
 			<xp:text
@@ -26,7 +29,7 @@
 				xp:key="footer"
 				escape="false">
 				<xp:this.value>
-						<![CDATA[</tbody></table>]]>
+					<![CDATA[</tbody></table>]]>
 				</xp:this.value>
 			</xp:text>
 		</xp:this.facets>

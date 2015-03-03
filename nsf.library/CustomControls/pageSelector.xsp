@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:panel
+		style="padding: 0 0 10px 2em;">
+		<xp:button
+			value="Add Photo"
+			id="button1"
+			style="margin-right:5.0em">
+			<xp:eventHandler
+				event="onclick"
+				submit="true"
+				refreshMode="complete">
+				<xp:this.action>
+					<xp:openPage
+						name="/photo.xsp"
+						target="newDocument" />
+				</xp:this.action>
+			</xp:eventHandler>
+		</xp:button>
+		<xp:button
+			value="Photo Gallery"
+			id="buttonGallery1"
+			style="margin-right:5.0em">
+			<xp:eventHandler
+				event="onclick"
+				submit="true"
+				refreshMode="complete">
+				<xp:this.action>
+					<xp:openPage
+						name="/gallery.xsp" />
+				</xp:this.action>
+			</xp:eventHandler>
+		</xp:button>
+		<xp:button
+			value="Photo View Control"
+			id="buttonAddEdit1"
+			style="margin-right:5.0em">
+			<xp:eventHandler
+				event="onclick"
+				submit="true"
+				refreshMode="complete">
+				<xp:this.action>
+					<xp:openPage
+						name="/photos.xsp" />
+				</xp:this.action>
+			</xp:eventHandler>
+		</xp:button>
+		<xp:button
+			value="All Photo Controls Demo"
+			id="buttonAllControls1"
+			style="margin-right:5.0em">
+			<xp:eventHandler
+				event="onclick"
+				submit="true"
+				refreshMode="complete">
+				<xp:this.action>
+					<xp:openPage
+						name="/photos_allcontrolsdemo.xsp" />
+				</xp:this.action>
+			</xp:eventHandler>
+		</xp:button>
+	</xp:panel>
+</xp:view>

@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="85257DF9005CF364" version="9.0" xmlns="http://www.lotus.com/dxl">
-<noteinfo noteid="182" sequence="10" unid="9211B7E5155C175CC1257DFB0024B7CA">
-<created><datetime>20150301T074103,46+01</datetime></created>
-<modified><datetime>20150301T074837,54+01</datetime></modified>
-<revised><datetime>20150301T074837,53+01</datetime></revised>
-<lastaccessed><datetime>20150301T074837,54+01</datetime></lastaccessed>
-<addedtofile><datetime>20150301T074103,47+01</datetime></addedtofile></noteinfo>
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257DFD0006D7BD" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="17a" sequence="10" unid="76F24E3AE0CD4729C1257DFD0007104D">
+<created><datetime>20150303T021709,25+01</datetime></created>
+<modified><datetime>20150303T035817,39+01</datetime></modified>
+<revised><datetime>20150303T035817,38+01</datetime></revised>
+<lastaccessed><datetime>20150303T035817,39+01</datetime></lastaccessed>
+<addedtofile><datetime>20150303T021709,26+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Devin Olson/O=azlighthouse</name></updatedby>
 <wassignedby><name>CN=Devin Olson/O=azlighthouse</name></wassignedby>
 <item name="$Flags"><text>34567Cg~[</text></item>
 <item name="$TITLE"><text>local/entwickler/photos/Image.java</text></item>
+
 <item name="$DesignerVersion"><text>8.5.3</text></item>
 
 
-<item name="$FileNames" sign="true"><text>local/entwickler/photos/Image.java</text></item></note>
+<item name="$FileNames" sign="true"><text>local/entwickler/photos/Image.java</text></item>
+
+</note>

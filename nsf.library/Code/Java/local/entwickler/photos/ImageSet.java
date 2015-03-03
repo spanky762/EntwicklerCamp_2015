@@ -21,15 +21,11 @@ public class ImageSet extends TreeSet<Image> implements Serializable {
 	 * Zero-Argument Constructor
 	 */
 	public ImageSet() {
+		this.reload();
 	}
 
 	public void load(String filepath, String viewname) {
-		System.out.println(" ");
-		System.out.println(" ");
-		System.out.println(" ");
-		System.out.println(" ");
-		System.out.println("**********");
-		System.out.println("ImageSet.load(filepath, viewname");
+		System.out.println("ImageSet.load(filepath, viewname)");
 		System.out.println("filepath: " + filepath);
 		System.out.println("viewname: " + viewname);
 
@@ -68,4 +64,11 @@ public class ImageSet extends TreeSet<Image> implements Serializable {
 					navigator, view, database);
 		}
 	}
+
+	public void reload() {
+		System.out.println("ImageSet.reload()");
+		this.load("entwickler\\photos\\attachments.nsf",
+				"lkp_attachmentsBySubject");
+	}
+
 }

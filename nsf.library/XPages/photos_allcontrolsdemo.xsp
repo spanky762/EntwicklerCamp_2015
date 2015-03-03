@@ -19,6 +19,13 @@
 		style="margin:1em;">
 		<xp:panel
 			style="font-size:16pt;font-family:sans-serif;font-weight:bold;margin-bottom:1.0em">Photos</xp:panel>
-		<xc:photos_viewcontrol />
+		<xc:photos_viewcontrol
+			title="ViewControl with SSJS" />
+		<xc:photos_repeatcontrol_bindView
+			title="Repeat Control, View Binding and SSJS" />
+		<xc:photos_repeatcontrol_bindJava_list
+			title="Repeat Control, JavaBean Binding - Table List" />
+		<xc:photos_repeatcontrol_bindJava_gallery
+			title="Repeat Control, JavaBean Binding - Gellery" />
 	</xp:panel>
 </xp:view>

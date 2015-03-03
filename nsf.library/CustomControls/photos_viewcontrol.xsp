@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xp:view
-	xmlns:xp="http://www.ibm.com/xsp/core">
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:script
+			src="/ssjsTools.jss"
+			clientSide="false" />
+	</xp:this.resources>
+	<xc:title_SSJS
+		title="#{javascript:compositeData.title}" />
 	<xp:viewPanel
 		value="#{view1}"
 		id="viewPanel1"

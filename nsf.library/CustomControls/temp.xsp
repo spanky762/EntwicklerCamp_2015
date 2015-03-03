@@ -10,8 +10,11 @@
 			</xp:td>
 			<xp:td>
 				<xp:label
-					value="Photos List"
-					id="label1" for="image1" style="font-size:20pt;font-weight:bold"/>
-				</xp:td></xp:tr>
+					value="Photos Repeat Control Table List"
+					id="label1"
+					for="image1"
+					style="font-size:20pt;font-weight:bold" />
+			</xp:td>
+		</xp:tr>
 	</xp:table>
 </xp:view>
