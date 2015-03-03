@@ -36,5 +36,7 @@
 			</xp:button>
 		</xp:panel>
 		<xc:photos_1 />
-		<xc:photos_repeat1></xc:photos_repeat1></xp:panel>
+		<xc:photos_repeat1 />
+		<xc:photos_repeat2 />
+	</xp:panel>
 </xp:view>

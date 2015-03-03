@@ -24,6 +24,7 @@ public class Image implements Serializable, Comparable<Image> {
 	}
 
 	public void load(Document document) {
+
 		try {
 			this._subject = document.getItemValueString("subject");
 			this._description = document.getItemValueString("description");
@@ -33,6 +34,12 @@ public class Image implements Serializable, Comparable<Image> {
 			System.out.println("EXCEPTION in Image.load(document) method");
 			e.printStackTrace();
 		}
+
+		System.out.println("Image.load(document)");
+		System.out.println("\t Subject: " + this.getSubject());
+		System.out.println("\t Description: " + this.getSubject());
+		System.out.println("\t UniversalID: " + this.getUniversalID());
+
 	}
 
 	public String getSubject() {
