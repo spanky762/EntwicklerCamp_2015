@@ -4,66 +4,21 @@
 	pageTitle="Photos"
 	pageIcon="/photos.png"
 	xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xc:pageSelector />
 	<xp:this.data>
 		<xp:dominoView
 			databaseName="entwickler\photos\attachments.nsf"
 			var="view1"
 			viewName="lkp_attachmentsBySubject" />
 	</xp:this.data>
+	<xp:this.resources>
+		<xp:styleSheet
+			href="/photos.css" />
+	</xp:this.resources>
 	<xp:panel
 		style="margin:1em;">
 		<xp:panel
-			style="font-size:16pt;font-family:sans-serif;font-weight:bold;margin-bottom:1.0em"> Photos </xp:panel>
-		<xp:panel
-			style="margin:1em;">
-			<xp:button
-				value="Add Photo"
-				id="button1">
-				<xp:eventHandler
-					event="onclick"
-					submit="true"
-					refreshMode="complete">
-					<xp:this.action>
-						<xp:openPage
-							name="/photo.xsp"
-							target="newDocument" />
-					</xp:this.action>
-				</xp:eventHandler>
-			</xp:button>
-		</xp:panel>
-		<xp:viewPanel
-			value="#{view1}"
-			id="viewPanel1"
-			pageName="/photo.xsp">
-			<xp:this.facets>
-				<xp:pager
-					partialRefresh="true"
-					layout="Previous Group Next"
-					xp:key="headerPager"
-					id="pager1" />
-			</xp:this.facets>
-			<xp:viewColumn
-				columnName="Subject"
-				id="viewColumn1"
-				displayAs="link"
-				openDocAsReadonly="true">
-				<xp:this.facets>
-					<xp:viewColumnHeader
-						value="Subject"
-						xp:key="header"
-						id="viewColumnHeader1" />
-				</xp:this.facets>
-			</xp:viewColumn>
-			<xp:viewColumn
-				columnName="Description"
-				id="viewColumn2">
-				<xp:this.facets>
-					<xp:viewColumnHeader
-						value="Description"
-						xp:key="header"
-						id="viewColumnHeader2" />
-				</xp:this.facets>
-			</xp:viewColumn>
-		</xp:viewPanel>
+			style="font-size:16pt;font-family:sans-serif;font-weight:bold;margin-bottom:1.0em">Photos</xp:panel>
+		<xc:photos_viewcontrol />
 	</xp:panel>
 </xp:view>

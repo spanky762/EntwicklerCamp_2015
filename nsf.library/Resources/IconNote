@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
- maintenanceversion='1.0' replicaid='85257DF4004D2A6F'>
-<noteinfo noteid='11a' unid='05DC4E69EB9FB47A85257DF4004D2A74' sequence='15'>
-<created><datetime>20150222T090251,40-05</datetime></created>
-<modified><datetime>20150222T161644,75-05</datetime></modified>
-<revised><datetime>20150222T161644,74-05</datetime></revised>
-<lastaccessed><datetime>20150222T161644,75-05</datetime></lastaccessed>
-<addedtofile><datetime>20150222T090251,43-05</datetime></addedtofile></noteinfo>
+ maintenanceversion='1.0' replicaid='C1257DFD0006D7BD'>
+<noteinfo noteid='11a' unid='A10F19DEE00F6AFBC1257DFD0006D7C1' sequence='11'>
+<created><datetime>20150303T021444,49+01</datetime></created>
+<modified><datetime>20150303T032155,09+01</datetime></modified>
+<revised><datetime>20150303T032155,08+01</datetime></revised>
+<lastaccessed><datetime>20150303T032155,09+01</datetime></lastaccessed>
+<addedtofile><datetime>20150303T021444,52+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Devin Olson/O=azlighthouse</name></updatedby>
 <wassignedby><name>CN=Devin Olson/O=azlighthouse</name></wassignedby>
 <item name='$Daos'><text>0</text></item>
@@ -25,10 +25,10 @@ AAAAAA4P4AAAAO7gAAAAAAAADu7wAA4AAAAADwAAAAAAAAAAAAAPAAAAAADgAAAAAA8AAAAAAAAA
 AAAADgAAAAAAAAAAAAAAAAAAAAD+7u7vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAA==
 </rawitemdata></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
 <item name='$TITLE'><text>Photo Library
 #1Entwickler Photo Library</text></item>
 <item name='$Flags'><text>J!</text></item>
-<item name='$LaunchXPageRunOnServer'><text>0</text></item>
-<item name='$FlagsNoRefresh'><text>rvt</text></item>
+<item name='$FlagsNoRefresh'><text>trv</text></item>
 <item name='$DefaultXPage'><text>photos.xsp</text></item></note>
 

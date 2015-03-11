@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xp:this.resources>
+		<xp:script
+			src="http://learningxpages.com/entwickler/photos/library.nsf/jQuery.js"
+			clientSide="true" />
+		<xp:styleSheet
+			href="/photos.css" />
+		<xp:script
+			src="/lightbox-2.6.js"
+			clientSide="true" />
+		<xp:styleSheet
+			href="/lightbox.css" />
+		<xp:styleSheet
+			href="/thumbnail-gallery.css" />
+	</xp:this.resources>
+	<xc:title_EL
+		title="#{compositeData.title}" />
+	<xp:div
+		styleClass="well well-sm container-fluid">
+		<xp:repeat
+			id="repeat1"
+			rows="30"
+			var="rowData"
+			indexVar="rowIdx"
+			value="#{Images}">
+			<!--		<xp:div-->
+			<!--			styleClass="col-lg-3 col-md-4 col-xs-6 thumb polaroidcontainer">-->
+			<xp:div
+				styleClass="col-lg-3 col-md-4 col-xs-6 thumb polaroidcontainer">
+				<a
+					class="thumbnail normalblack"
+					href="#{rowData.url}"
+					data-lightbox="docimages"
+					title="#{rowData.description}">
+					<center>
+					<img
+						class="img-responsive polaroidpic"
+						src="#{rowData.url}"
+						alt="" /></center>
+					<xp:div
+						id="photoText1"
+						styleClass="polaroidnote">
+						<xp:text
+							id="computedField1"
+							rendered="#{!(empty rowData.subject)}"
+							value="#{rowData.subject}"
+							tagName="h2" />
+						<xp:text
+							id="description1"
+							rendered="#{!(empty rowData.description)}"
+							value="#{rowData.description}" />
+					</xp:div>
+				</a>
+			</xp:div>
+		</xp:repeat>
+	</xp:div>
+</xp:view>

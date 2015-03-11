@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	pageTitle="Photos"
+	pageIcon="/photos.png"
+	xmlns:xc="http://www.ibm.com/xsp/custom">
+	<xc:pageSelector />
+	<xp:this.data>
+		<xp:dominoView
+			databaseName="entwickler\photos\attachments.nsf"
+			var="view1"
+			viewName="lkp_attachmentsBySubject" />
+	</xp:this.data>
+	<xp:this.resources>
+		<xp:styleSheet
+			href="/photos.css" />
+	</xp:this.resources>
+	<xp:panel
+		style="margin:1em;">
+		<xp:panel
+			style="font-size:16pt;font-family:sans-serif;font-weight:bold;margin-bottom:1.0em">Photos</xp:panel>
+		<xc:photos_viewcontrol
+			title="ViewControl with SSJS" />
+		<xc:photos_repeatcontrol_bindView
+			title="Repeat Control, View Binding and SSJS" />
+		<xc:photos_repeatcontrol_bindJava_list
+			title="Repeat Control, JavaBean Binding - Table List" />
+		<xc:photos_repeatcontrol_bindJava_gallery
+			title="Repeat Control, JavaBean Binding - Gellery" />
+	</xp:panel>
+</xp:view>

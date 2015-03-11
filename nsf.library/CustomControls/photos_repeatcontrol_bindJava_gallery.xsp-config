@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+  <faces-config-extension>
+    <namespace-uri>http://www.ibm.com/xsp/custom</namespace-uri>
+    <default-prefix>xc</default-prefix>
+  </faces-config-extension>
+  <composite-component>
+    <component-type>photos_repeatcontrol_bindJava_gallery</component-type>
+    <composite-name>photos_repeatcontrol_bindJava_gallery</composite-name>
+    <composite-file>/photos_repeatcontrol_bindJava_gallery.xsp</composite-file>
+    <composite-extension>
+      <designer-extension>
+        <in-palette>true</in-palette>
+        <render-markup>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#xd;
+&lt;xp:view&#xd;
+	xmlns:xp="http://www.ibm.com/xsp/core"&gt;&#xd;
+	&lt;xp:table&gt;&#xd;
+		&lt;xp:tr&gt;&#xd;
+			&lt;xp:td&gt;&#xd;
+				&lt;xp:image&#xd;
+					url="/photos.png"&#xd;
+					id="image1" /&gt;&#xd;
+			&lt;/xp:td&gt;&#xd;
+			&lt;xp:td&gt;&#xd;
+				&lt;xp:label&#xd;
+					value="Photos Repeat Control Using JavaBean Binding - Gallery"&#xd;
+					id="label1" for="image1" style="font-size:20pt;font-weight:bold"/&gt;&#xd;
+				&lt;/xp:td&gt;&lt;/xp:tr&gt;&#xd;
+	&lt;/xp:table&gt;&#xd;
+&lt;/xp:view&gt;</render-markup>
+      </designer-extension>
+    </composite-extension>
+    <property>
+      <property-name>title</property-name>
+      <property-class>string</property-class>
+      <display-name>Title</display-name>
+      <property-extension>
+        <designer-extension>
+          <editor>com.ibm.std.String</editor>
+        </designer-extension>
+      </property-extension>
+    </property>
+  </composite-component>
+</faces-config>

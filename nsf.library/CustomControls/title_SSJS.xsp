@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:panel
+		rendered="#{javascript:!@IsBlank(compositeData.title)}"
+		style="margin:0; margin-top:2em;">
+		<xp:text
+			escape="true"
+			id="title1"
+			tagName="h1"
+			value="#{javascript:compositeData.title}" />
+	</xp:panel>
+</xp:view>
