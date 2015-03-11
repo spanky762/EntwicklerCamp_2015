@@ -4,7 +4,7 @@
 	xmlns:xc="http://www.ibm.com/xsp/custom">
 	<xp:this.resources>
 		<xp:script
-			src="http://sulu.azlighthouse.com/entwickler/photos/library.nsf/jQuery.js"
+			src="http://learningxpages.com/entwickler/photos/library.nsf/jQuery.js"
 			clientSide="true" />
 		<xp:styleSheet
 			href="/photos.css" />
